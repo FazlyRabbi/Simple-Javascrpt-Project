@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+
+.single-task {
+  min-height:70px;
+  padding: 5px;
+  background: salmon;
+  color:#fff;
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
+  clear: both;
+ 
+ 
+}
+
+.single-taskp{
+
+  width:90%;
+
+  padding:18px 5px 5px 5px;
+
+}
+.task-control-panel {
+  width: 100%;
+  min-height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.color-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+
+  /* position:absolute;
+  left:5px;
+  top:8px; */
+}
+
+
+.inner-textarea {
+  resize: none;
+  position: absolute;
+  background: #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.35);
+  top: 0;
+  left: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  padding: 5px;
+}
