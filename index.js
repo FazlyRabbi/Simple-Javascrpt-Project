@@ -13,7 +13,7 @@ window.onload = function() {
   });
 
   addTaskBtn.addEventListener("click", function() {
-    createTask(allTasksParent, this.value);
+    createTask(allTasksParent, taskField.value);
 
     taskField.value = "";
   });
